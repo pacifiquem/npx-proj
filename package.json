@@ -1,7 +1,10 @@
 {
   "name": "npx-proj",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "nodejs project-structure manager .",
+  "publishConfig": {
+    "pacifiquem:registry": "https://npm.pkg.github.com"
+  },
   "main": "index.js",
   "bin": {
     "npx-proj": "/bin/npx-proj.ts"
